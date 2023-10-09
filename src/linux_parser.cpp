@@ -124,13 +124,11 @@ long LinuxParser::UpTime()
 long LinuxParser::Jiffies()
 {
   vector<string> vals = LinuxParser::CpuUtilization();
-  vector<long> valslong(10, 0);
   long total = 0;
   vector<CPUStates> cpuStates = {kUser_, kNice_, kSystem_, kIdle_, kIOwait_, kIRQ_, kSoftIRQ_, kSteal_};
   for (int i : cpuStates)
   {
-    valslong[i] = stol(vals[i]);
-    total += valslong[i];
+    total += stol(vals[i]);
   };
 
   return total;
@@ -177,7 +175,7 @@ long LinuxParser::IdleJiffies()
 {
   vector<string> jiffies = CpuUtilization();
 
-  return stol(jiffies[CPUStates::kUser_]) + stol(jiffies[CPUStates::kNice_]) + stol(jiffies[CPUStates::kSystem_]) + stol(jiffies[CPUStates::kIRQ_]) + stol(jiffies[CPUStates::kSoftIRQ_]) + stol(jiffies[CPUStates::kSteal_]);
+  return stol(jiffies[CPUStates::kIdle_]) + stol(jiffies[CPUStates::kIOwait_]);
 }
 
 // TODO: Read and return CPU utilization
