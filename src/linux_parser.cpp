@@ -231,7 +231,7 @@ int LinuxParser::TotalProcesses()
 // TODO: Read and return the number of running processes
 int LinuxParser::RunningProcesses()
 {
-  std::ifstream stream(kProcDirectory + kMeminfoFilename);
+  std::ifstream stream(kProcDirectory + kStatFilename);
   std::string line, key, value;
   int runningProcesses = 0;
 
