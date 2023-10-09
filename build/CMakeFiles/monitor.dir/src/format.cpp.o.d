@@ -1,5 +1,5 @@
 CMakeFiles/monitor.dir/src/format.cpp.o: \
- /home/nbk/Desktop/udacity/CppND-System-Monitor/src/format.cpp \
+ /home/nbk/Desktop/udacity/2-System-Monitor/src/format.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/9/string \
  /usr/include/aarch64-linux-gnu/c++/9/bits/c++config.h \
  /usr/include/aarch64-linux-gnu/c++/9/bits/os_defines.h \
@@ -127,4 +127,4 @@ CMakeFiles/monitor.dir/src/format.cpp.o: \
  /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
  /usr/include/aarch64-linux-gnu/bits/types/error_t.h \
  /usr/include/c++/9/bits/basic_string.tcc \
- /home/nbk/Desktop/udacity/CppND-System-Monitor/include/format.h
+ /home/nbk/Desktop/udacity/2-System-Monitor/include/format.h

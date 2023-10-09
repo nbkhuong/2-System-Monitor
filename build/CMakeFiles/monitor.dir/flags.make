@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/nbk/Desktop/udacity/CppND-System-Monitor/include
+CXX_INCLUDES = -I/home/nbk/Desktop/udacity/2-System-Monitor/include
 
 CXX_FLAGS = -g -Wall -Wextra -std=gnu++17
 

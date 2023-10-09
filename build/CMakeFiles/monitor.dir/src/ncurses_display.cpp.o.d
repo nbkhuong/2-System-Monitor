@@ -1,5 +1,5 @@
 CMakeFiles/monitor.dir/src/ncurses_display.cpp.o: \
- /home/nbk/Desktop/udacity/CppND-System-Monitor/src/ncurses_display.cpp \
+ /home/nbk/Desktop/udacity/2-System-Monitor/src/ncurses_display.cpp \
  /usr/include/stdc-predef.h /usr/include/curses.h \
  /usr/include/ncurses_dll.h \
  /usr/lib/gcc/aarch64-linux-gnu/9/include/stdint.h /usr/include/stdint.h \
@@ -151,9 +151,69 @@ CMakeFiles/monitor.dir/src/ncurses_display.cpp.o: \
  /usr/include/c++/9/pstl/execution_defs.h /usr/include/c++/9/vector \
  /usr/include/c++/9/bits/stl_vector.h \
  /usr/include/c++/9/bits/stl_bvector.h /usr/include/c++/9/bits/vector.tcc \
- /home/nbk/Desktop/udacity/CppND-System-Monitor/include/format.h \
- /home/nbk/Desktop/udacity/CppND-System-Monitor/include/ncurses_display.h \
- /home/nbk/Desktop/udacity/CppND-System-Monitor/include/process.h \
- /home/nbk/Desktop/udacity/CppND-System-Monitor/include/system.h \
- /home/nbk/Desktop/udacity/CppND-System-Monitor/include/processor.h \
- /home/nbk/Desktop/udacity/CppND-System-Monitor/include/system.h
+ /home/nbk/Desktop/udacity/2-System-Monitor/include/format.h \
+ /home/nbk/Desktop/udacity/2-System-Monitor/include/ncurses_display.h \
+ /home/nbk/Desktop/udacity/2-System-Monitor/include/process.h \
+ /home/nbk/Desktop/udacity/2-System-Monitor/include/system.h \
+ /home/nbk/Desktop/udacity/2-System-Monitor/include/processor.h \
+ /home/nbk/Desktop/udacity/2-System-Monitor/include/linux_parser.h \
+ /usr/include/c++/9/fstream /usr/include/c++/9/istream \
+ /usr/include/c++/9/ios /usr/include/c++/9/bits/ios_base.h \
+ /usr/include/c++/9/bits/locale_classes.h \
+ /usr/include/c++/9/bits/locale_classes.tcc \
+ /usr/include/c++/9/system_error \
+ /usr/include/aarch64-linux-gnu/c++/9/bits/error_constants.h \
+ /usr/include/c++/9/streambuf /usr/include/c++/9/bits/streambuf.tcc \
+ /usr/include/c++/9/bits/basic_ios.h \
+ /usr/include/c++/9/bits/locale_facets.h /usr/include/c++/9/cwctype \
+ /usr/include/wctype.h /usr/include/aarch64-linux-gnu/bits/wctype-wchar.h \
+ /usr/include/aarch64-linux-gnu/c++/9/bits/ctype_base.h \
+ /usr/include/c++/9/bits/streambuf_iterator.h \
+ /usr/include/aarch64-linux-gnu/c++/9/bits/ctype_inline.h \
+ /usr/include/c++/9/bits/locale_facets.tcc \
+ /usr/include/c++/9/bits/basic_ios.tcc /usr/include/c++/9/ostream \
+ /usr/include/c++/9/bits/ostream.tcc /usr/include/c++/9/bits/istream.tcc \
+ /usr/include/c++/9/bits/codecvt.h \
+ /usr/include/aarch64-linux-gnu/c++/9/bits/basic_file.h \
+ /usr/include/aarch64-linux-gnu/c++/9/bits/c++io.h \
+ /usr/include/c++/9/bits/fstream.tcc /usr/include/c++/9/regex \
+ /usr/include/c++/9/algorithm /usr/include/c++/9/bits/stl_algo.h \
+ /usr/include/c++/9/bits/algorithmfwd.h \
+ /usr/include/c++/9/bits/stl_heap.h \
+ /usr/include/c++/9/bits/uniform_int_dist.h \
+ /usr/include/c++/9/pstl/glue_algorithm_defs.h \
+ /usr/include/c++/9/functional /usr/include/c++/9/bits/std_function.h \
+ /usr/include/c++/9/unordered_map /usr/include/c++/9/bits/hashtable.h \
+ /usr/include/c++/9/bits/hashtable_policy.h \
+ /usr/include/c++/9/bits/node_handle.h /usr/include/c++/9/optional \
+ /usr/include/c++/9/bits/enable_special_members.h \
+ /usr/include/c++/9/bits/unordered_map.h \
+ /usr/include/c++/9/bits/erase_if.h /usr/include/c++/9/bitset \
+ /usr/include/c++/9/iterator /usr/include/c++/9/bits/stream_iterator.h \
+ /usr/include/c++/9/locale /usr/include/c++/9/bits/locale_facets_nonio.h \
+ /usr/include/aarch64-linux-gnu/c++/9/bits/time_members.h \
+ /usr/include/aarch64-linux-gnu/c++/9/bits/messages_members.h \
+ /usr/include/libintl.h /usr/include/c++/9/bits/locale_facets_nonio.tcc \
+ /usr/include/c++/9/bits/locale_conv.h /usr/include/c++/9/sstream \
+ /usr/include/c++/9/bits/sstream.tcc /usr/include/c++/9/stack \
+ /usr/include/c++/9/deque /usr/include/c++/9/bits/stl_deque.h \
+ /usr/include/c++/9/bits/deque.tcc /usr/include/c++/9/bits/stl_stack.h \
+ /usr/include/c++/9/map /usr/include/c++/9/bits/stl_tree.h \
+ /usr/include/c++/9/bits/stl_map.h /usr/include/c++/9/bits/stl_multimap.h \
+ /usr/include/c++/9/cstring /usr/include/string.h /usr/include/strings.h \
+ /usr/include/c++/9/bits/regex_constants.h \
+ /usr/include/c++/9/bits/regex_error.h \
+ /usr/include/c++/9/bits/regex_automaton.h \
+ /usr/include/c++/9/bits/regex_automaton.tcc \
+ /usr/include/c++/9/bits/regex_scanner.h \
+ /usr/include/c++/9/bits/regex_scanner.tcc \
+ /usr/include/c++/9/bits/regex_compiler.h \
+ /usr/include/c++/9/bits/regex_compiler.tcc \
+ /usr/include/c++/9/bits/regex.h /usr/include/c++/9/bits/regex.tcc \
+ /usr/include/c++/9/bits/regex_executor.h \
+ /usr/include/c++/9/bits/regex_executor.tcc \
+ /usr/include/c++/9/memory_resource /usr/include/c++/9/cstddef \
+ /usr/include/c++/9/shared_mutex /usr/include/c++/9/condition_variable \
+ /usr/include/c++/9/bits/std_mutex.h \
+ /usr/include/c++/9/bits/unique_lock.h \
+ /home/nbk/Desktop/udacity/2-System-Monitor/include/system.h

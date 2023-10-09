@@ -1,5 +1,5 @@
 CMakeFiles/monitor.dir/src/linux_parser.cpp.o: \
- /home/nbk/Desktop/udacity/CppND-System-Monitor/src/linux_parser.cpp \
+ /home/nbk/Desktop/udacity/2-System-Monitor/src/linux_parser.cpp \
  /usr/include/stdc-predef.h /usr/include/dirent.h /usr/include/features.h \
  /usr/include/features-time64.h \
  /usr/include/aarch64-linux-gnu/bits/wordsize.h \
@@ -161,7 +161,7 @@ CMakeFiles/monitor.dir/src/linux_parser.cpp.o: \
  /usr/include/c++/9/bits/stl_relops.h \
  /usr/include/c++/9/bits/stl_vector.h \
  /usr/include/c++/9/bits/stl_bvector.h /usr/include/c++/9/bits/vector.tcc \
- /home/nbk/Desktop/udacity/CppND-System-Monitor/include/linux_parser.h \
+ /home/nbk/Desktop/udacity/2-System-Monitor/include/linux_parser.h \
  /usr/include/c++/9/fstream /usr/include/c++/9/bits/codecvt.h \
  /usr/include/aarch64-linux-gnu/c++/9/bits/basic_file.h \
  /usr/include/aarch64-linux-gnu/c++/9/bits/c++io.h \
