@@ -21,7 +21,7 @@ float Process::CpuUtilization() const { return float(LinuxParser::ActiveJiffies(
 string Process::Command() { return LinuxParser::Command(m_pid); }
 
 // TODO: Return this process's memory utilization
-string Process::Ram() { return LinuxParser::Ram(m_pid); }
+string Process::Ram() const { return LinuxParser::Ram(m_pid); }
 
 // TODO: Return the user (name) that generated this process
 string Process::User() { return LinuxParser::User(m_pid); }
@@ -31,4 +31,4 @@ long int Process::UpTime() { return LinuxParser::UpTime(m_pid); }
 
 // TODO: Overload the "less than" comparison operator for Process objects
 // REMOVE: [[maybe_unused]] once you define the function
-bool Process::operator<(Process const &a) const { return (a.CpuUtilization() < CpuUtilization()); }
+bool Process::operator<(Process const &a) const { return CpuUtilization() < a.CpuUtilization(); }

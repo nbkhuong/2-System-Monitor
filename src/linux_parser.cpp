@@ -152,10 +152,14 @@ long LinuxParser::ActiveJiffies(int pid)
       count++;
       if (count == 13)
         sum += std::stol(value);
-      if (count == 13)
+      if (count == 14)
+        sum += std::stol(value);
+      if (count == 15)
+        sum += std::stol(value);
+      if (count == 16)
       {
         sum += std::stol(value);
-        return sum;
+        return sum / sysconf(_SC_CLK_TCK);
       }
     }
   }
