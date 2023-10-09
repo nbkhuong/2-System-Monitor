@@ -8,7 +8,7 @@ The repo contains the code for System Monitor Project in the Object Oriented Pro
 
 ## Installation
 
-### Clone the repo
+### Dependencies
 
 ### ncurses
 [ncurses](https://www.gnu.org/software/ncurses/) is a library that facilitates text-based graphical output in the terminal. This project relies on ncurses for display output.
