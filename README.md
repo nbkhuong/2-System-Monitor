@@ -6,9 +6,8 @@ The repo contains the code for System Monitor Project in the Object Oriented Pro
 ![System Monitor](images/demo.gif)
 
 
-## Installation
 
-### Dependencies
+## Dependencies
 
 ### ncurses
 [ncurses](https://www.gnu.org/software/ncurses/) is a library that facilitates text-based graphical output in the terminal. This project relies on ncurses for display output.
@@ -24,7 +23,8 @@ This project uses [Make](https://www.gnu.org/software/make/). The Makefile has f
 * `debug` compiles the source code and generates an executable, including debugging symbols
 * `clean` deletes the `build/` directory, including all of the build artifacts
 
-### How to build the project
+
+## Installation
 1. CVlone the project by:
 ```bash
 https://github.com/nbkhuong/2-System-Monitor.git
