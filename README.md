@@ -25,7 +25,7 @@ This project uses [Make](https://www.gnu.org/software/make/). The Makefile has f
 
 
 ## Installation
-1. CVlone the project by:
+1. Clone the project by:
 ```bash
 https://github.com/nbkhuong/2-System-Monitor.git
 ```
