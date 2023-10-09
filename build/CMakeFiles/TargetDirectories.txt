@@ -1,3 +1,0 @@
-/home/nbk/Desktop/udacity/2-System-Monitor/build/CMakeFiles/monitor.dir
-/home/nbk/Desktop/udacity/2-System-Monitor/build/CMakeFiles/edit_cache.dir
-/home/nbk/Desktop/udacity/2-System-Monitor/build/CMakeFiles/rebuild_cache.dir
